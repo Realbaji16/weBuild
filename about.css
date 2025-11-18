@@ -225,7 +225,9 @@ h2 {
   display: block;
 }
 .text-logo img{
-  width:90%;
+  width: auto;
+  height: 48px;
+  max-width: 100%;
 }
 a {
   text-decoration: none;
@@ -309,8 +311,8 @@ ul h2 {
     width: 40%;
     margin: 0;
   }
-  .text-logo img{
-    width: 40%;
+  #tablet-nav .text-logo img {
+    height: 56px;
   }
   #tablet-nav .link-group {
     width: 30%;
